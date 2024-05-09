@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "brute_force_attacker"
+version = "0.0.1"
+authors = [
+  { name="Nick Tsai", email="myintaer@gmail.com" },
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'worker_dispatcher >= 1.0.0',
+]
+
+[project.urls]
+Homepage = "https://github.com/yidas/brute-force-attacker-python"
+Issues = "https://github.com/yidas/brute-force-attacker-python/issues"
